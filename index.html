@@ -4,14 +4,17 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width initial-scale = 1">
 	<link rel="stylesheet" href= "css/bootstrap.css">
+	<link rel="stylesheet" href="css/tribute.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<title>Tribute Page</title>
 </head>
-<body style="background-color: rgb(200, 100, 100);">
+<body id="main">
 		<nav class="navbar bg-dark navbar-dark">
 			<!--Brand/Logo-->
-			<a class="navbar-brand" href="#">Logo</a>
+			<a class="navbar-brand" href="#">
+				<img src="image/marvel.jpg" alt="logo" width="50px">
+			</a>
 
 			<!-- Toggler/Collapsible Button -->
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#thetarget" aria-controls="thetarget"
@@ -21,35 +24,35 @@
 			<!--Links-->
 			<div class="collapse navbar-collapse" id="thetarget">
 				<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-					<li class="nav-item active">
-						<a class="nav-link" href="#">Link 1</a>
+					<li class="nav-item">
+						<a class="nav-link" href="index.html">Home</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">Link 2</a>
+						<a class="nav-link" href="biodata.html">Quick Facts</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">Link 3</a>
+						<a class="nav-link" href="career.html">Career</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="achievement.html">Achievement</a>
 					</li>
 				</ul>
 			</div>
-			
 		</nav>
-		<div class="container" style="text-align: center;">
-			<h1 style="padding: 30px 0px 10px; color: white;">Stanley Martin Lieber</h1>
-			<div style="padding-bottom: 20px; color: white;">The legend with a story</div>
+		<!--Controls the jumbotron-->
+		<div class="jumbotron">
+			<div class="container-fluid">
+				<h1>Stanley Martin Lieber</h1>
+				<p>The legend with a story</p>
+				<img src="image/stan.jpg" alt="Stan Lee" class="rounded mx-auto d-block img-fluid" width="900">
+				<p>Stan at the New York Comic Con event in 2010.</p>
+			</div>
 		</div>
-		<div class="container-fluid" style="background-color: #343A40; margin-bottom: 30px; padding: 10px 0px 10px 0;">
-			<img src="image/stan.jpg" alt="Stan Lee" class="rounded-circle mx-auto d-block img-fluid" width="device-width">
-			<div style=" text-align:center; color: white;">Stan at the New York Comic Con event in 2010.</div>
-		</div>
-		<div class="container">
-			<div style="text-align: center;">
-				<span style="color: white;">Prologue</span>
-				<ul class="list-group">
+		<!--Trick to use a list to display-->
+		<div class="container-fluid" id="yes">
+			<ul class="list-group">
 					<li class="list-group-item">Stanley Martin Lieber, popularly known as Stan Lee, was an American comic book writer, editor, publisher, media producer, television host, actor, and voice actor. He started out his career working as an office boy for the Marvel Comics––which meant fetching lunch, proof reading and refilling artist's ink jars, eventually proving his creative talent, escalated from the position of interim editor to the president of the entire company. He is known for creating superheroes like ‘Spider-Man’, ‘The Hulk’, ‘X-men’, ‘Iron Man’, ‘Thor’, ‘Doctor Strange’, etc. and gained nationwide popularity when he created the superhero series ‘The Fantastic Four’ in which he made his superheroes imperfect rather than selling the idea of a perfectly capable superhero. He created these superheroes in collaboration with his colleagues, Jack Kirby and Steve Ditko. He is said to have brought in revolution in the comic world through his satirical writing and bringing in the elements of the real world into the world of these superheroes, which is how he used to make these superheroes viable and responsible. It was Lee who made Marvel Comics a multimedia corporation from just a small division of a publishing house. Apart from creating superheroes and writing story plots for the comics, he also wrote weekly columns and produced many superhero based ventures through his production company.</li>
 				</ul>
-			</div>
-		</div>
-		
+		</div>	
 </body>
 </html>
