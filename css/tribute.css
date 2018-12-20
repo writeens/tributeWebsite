@@ -1,0 +1,33 @@
+#main{
+	background-color: #ed1d24;
+	color: white;
+	text-align: center;
+}
+.jumbotron {
+	background-color: #343a40;
+	margin: 30px 100px 10px 100px;
+}
+.jumbotron h1 {
+	margin-bottom: 20px;
+}
+.jumbotron p {
+	margin-bottom: 20px;
+}
+.list-group-item {
+	background-color: #343a40;
+}
+#topic{
+	margin-bottom: 10px;
+}
+#yes{
+	margin-top: 30px;
+}
+#yes li {
+	margin-bottom: 10px;
+}
+.table{
+	background-color: #343a40;
+}
+.table-success{
+	background-color: #28a745
+}
