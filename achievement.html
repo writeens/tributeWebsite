@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width initial-scale = 1">
+	<link rel="stylesheet" href= "css/bootstrap.css">
+	<link rel="stylesheet" href="css/tribute.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<title>Achievements</title>
+</head>
+<body id="main">
+		<nav class="navbar bg-dark navbar-dark">
+			<!--Brand/Logo-->
+			<a class="navbar-brand" href="#">
+				<img src="image/marvel.jpg" alt="logo" width="50px">
+			</a>
+
+			<!-- Toggler/Collapsible Button -->
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#thetarget" aria-controls="thetarget"
+			aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<!--Links-->
+			<div class="collapse navbar-collapse" id="thetarget">
+				<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+					<li class="nav-item">
+						<a class="nav-link" href="index.html">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="biodata.html">Quick Facts</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="career.html">Career</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="achievement.html">Achievements</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+		<div class="jumbotron">
+			<div class="container-fluid">
+				<h1>Achievements</h1>
+				<img src="image/achievement.jpg" alt="Stan Lee" class="rounded mx-auto d-block img-fluid" width="900">
+				<p>Stan and the wonderful set of characters he developed.</p>
+			</div>
+		</div>
+		<!--This controls the entire table in the webpage-->
+		<div class="container-fluid" id="new">
+			<table class="table table-bordered">
+				<thead class="table-dark">
+					<tr>
+						<th>Year</th>
+						<th>Award</th>
+						<th>Nominated Work</th>
+						<th>Result</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>1974</td>
+						<td>Inkpot Award</td>
+						<td>-</td>
+						<!--This adjusts the rows of a particular cell and also adds color-->
+						<td class="table-success" rowspan="5">Won</td>
+					</tr>
+					<tr>
+						<td>1994</td>
+						<td>The Will Eisner Award Hall of Fame</td>
+						<td>-</td>
+						
+					</tr>
+					<tr>
+						<td>1995</td>
+						<td>Jack Kirby Hall of Fame</td>
+						<td>-</td>
+						
+					</tr>
+					<tr>
+						<td>2002</td>
+						<td>Saturn Award</td>
+						<td>The Life Career Award</td>
+						
+					</tr>
+					<tr>
+						<td>2008</td>
+						<td>National Medal Of Arts</td>
+						<td>-</td>
+						
+					</tr>
+					<tr>
+						<td rowspan="2">2009</td>
+						<td>Hugo Award</td>
+						<td>Hugo Award for Best Dramatic Presentation - Iron Man</td>
+						<td class="table-warning">Nominated</td>
+					</tr>
+					<tr>
+						<td>Scream Awards</td>
+						<td>Comic-Con Icon Award</td>
+						<td class="table-success" rowspan="5">Won</td>
+					</tr>
+					<tr>
+						<td>2011</td>
+						<td>HollyWood Walk of Fame</td>
+						<td>-</td>
+					</tr>
+					<tr>
+						<td rowspan="2">2012</td>
+						<td>Visual Effects Society Awards</td>
+						<td>Lifetime Achievement Award</td>
+					</tr>
+					<tr>
+						<td>Producers Guild of America</td>
+						<td>Vanguard Award</td>
+					</tr>
+					<tr>
+						<td>2017</td>
+						<td>National Academy of Video Game Trade Reviewers</td>
+						<td>Performance in a Comedy, Supporting</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>	
+</body>
+</html>
